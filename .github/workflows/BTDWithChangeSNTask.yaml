@@ -126,6 +126,6 @@ jobs:
       - name: Run deployment scripts
         run: echo Completed Deployment.
         
-      - name: Try to Fail
-        run: exit 1
+#       - name: Try to Fail
+#         run: exit 1
       
