@@ -50,7 +50,7 @@ jobs:
         needs: build
         runs-on: ubuntu-latest
         steps:
-            - uses: actions/checkout@v2
+            - uses: actions/checkout@v2.0.0
               with:
                   fetch-depth: 0  # Shallow clones should be disabled for a better relevancy of analysis
 
