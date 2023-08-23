@@ -84,7 +84,7 @@ jobs:
             - name: ServiceNow DevOps Sonar Scan Results
             # You may pin to the exact commit or the version.
             # uses: ServiceNow/servicenow-devops-sonar@0ed32c6471c8191f264d4bd464f14c858032354a
-              uses: ServiceNow/servicenow-devops-sonar@main
+              uses: ServiceNow/servicenow-devops-sonar@v2.0.0
               with:
                   # ServiceNow Instance URL
                   instance-url: ${{ secrets.SN_INSTANCE_URL }}
@@ -107,7 +107,7 @@ jobs:
             - name: ServiceNow DevOps Unit Test Results
             # You may pin to the exact commit or the version.
             # uses: ServiceNow/servicenow-devops-test-report@6c7ef85f6aedfb7ab17e4d17c52c14c5f2f455fd
-              uses: ServiceNow/servicenow-devops-test-report@main
+              uses: ServiceNow/servicenow-devops-test-report@v2.0.0
               with:
                   # Devops Integration User Name
                   devops-integration-user-name: ${{ secrets.SN_DEVOPS_USER }}
@@ -135,7 +135,7 @@ jobs:
             - name: ServiceNow DevOps Register Artifact
             # You may pin to the exact commit or the version.
             # uses: ServiceNow/servicenow-devops-register-artifact@6312802fd9eecd4a57b13216e968b8cae4ff6fe4
-              uses: ServiceNow/servicenow-devops-register-artifact@main
+              uses: ServiceNow/servicenow-devops-register-artifact@v2.0.0
               with:
                   # Devops Integration User Name
                   devops-integration-user-name: ${{ secrets.SN_DEVOPS_USER }}
@@ -208,7 +208,7 @@ jobs:
             - name: ServiceNow DevOps Change Automation
             # You may pin to the exact commit or the version.
             # uses: ServiceNow/servicenow-devops-change@0f57435999463cc1dea44bde4f5eca9879474b85
-              uses: ServiceNow/servicenow-devops-change@2.0
+              uses: ServiceNow/servicenow-devops-change@2.0.0
               with:
                   # ServiceNow Instance URL
                   instance-url: ${{ secrets.SN_INSTANCE_URL }}
