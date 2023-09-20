@@ -244,7 +244,7 @@ jobs:
 
     postdeploy:
         name: Post Deploy
-        needs: deploy
+        needs: test
         runs-on: ubuntu-latest
         steps:
             - name: Run deployment scripts
